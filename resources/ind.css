@@ -1,0 +1,102 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #4169E1; /* Royal Blue for body text */
+    background-color: #B0C4DE; /* Light Steel Blue as a smooth bluish-grey background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1, h2, h3, h4, h5 {
+    color: #800080; /* Dark Purple for headers */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2, h3, h4, h5 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Paragraph styles */
+p {
+    margin: 20px;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border: 5px solid black;
+}
+
+/* Link styles */
+a {
+    color: #FF4500; /* Orange Red for links to stand out */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD700; /* Gold for link hover effect */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    margin-left: 20px;
+}
+
+/* Table styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #800080; /* Dark Purple for table headers */
+    color: white;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin-left: 10px;
+    }
+
+    p, li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    table, img {
+        width: 100%;
+    }
+
+}
