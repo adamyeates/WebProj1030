@@ -1,0 +1,45 @@
+/*
+blue: #468BA6
+orange: #F29A2E
+light orange: #FDF0E0
+darker blue: #1D4859
+brown: #593814
+*/
+
+body {
+    background-color: #FDF0E0;
+    padding: 0 24px 36px 24px;
+}
+
+a { 
+    color: #593814;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1D4859;
+}
+
+h1, h2 {
+    color: #1D4859;
+}
+h1 {
+    text-align: center;
+}
+p.picture {
+    text-align: center;
+}
+
+p, th, td {
+    font-size: 14px;
+}
+
+th, td {
+    border: 4px solid #468BA6;
+    padding: 8px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
